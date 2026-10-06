@@ -126,6 +126,7 @@ tmp/
 
 # Keep external libs
 !app/libs/*.jar
+!gradle/wrapper/gradle-wrapper.jar
 
 # script output
 check-dpi.txt*

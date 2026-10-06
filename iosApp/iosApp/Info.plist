@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>API_URL</key>
+	<string>https://app-api.131re.xyz/</string>
+	<key>FLAVOR_ENV</key>
+	<string>dev</string>
+	<key>BUILD_TYPE</key>
+	<string>debug</string>
+</dict>
+</plist>
