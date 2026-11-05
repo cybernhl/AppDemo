@@ -7,11 +7,16 @@ plugins {
 //    alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.compose.compiler)
+    `maven-publish`
 }
 
 
 group = "com.github.cybernhl.AppDemo"
 version = "1.0-SNAPSHOT"
+
+compose.resources {
+    packageOfResClass = "testkoinkib.shared.generated.resources"
+}
 
 kotlin {
     jvm()
