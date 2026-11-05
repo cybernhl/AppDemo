@@ -51,8 +51,8 @@ kotlin {
 }
 
 dependencies {
-    implementation(project(":shared"))
-
+//    implementation(project(":shared"))
+    implementation("com.github.cybernhl.AppDemo:shared:0.0.c")
     implementation(libs.androidx.activity.compose)
 
     implementation(libs.jetbrains.compose.ui.tooling.preview)

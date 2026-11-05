@@ -24,6 +24,7 @@ import testkoinkib.shared.generated.resources.compose_multiplatform
 fun App() {
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
+        val oo=commonModule
         Column(
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.primaryContainer)

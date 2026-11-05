@@ -81,6 +81,24 @@ kotlin {
             implementation(libs.jetbrains.androidx.lifecycle.viewmodel.compose)
             implementation(libs.jetbrains.androidx.lifecycle.runtime.compose)
             implementation(libs.jetbrains.androidx.navigation.compose)
+
+
+            implementation(libs.koin.core)
+
+            implementation(libs.de.ktorfit)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.logging)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.json)
+
+
+            api("com.github.cybernhl.GeneralModule:DI_TAGS:0.0.1")
+            api("com.github.cybernhl.GeneralModule:utils:0.0.1")
+            api("com.github.cybernhl.Entity:general:0.0.7")
+            api("com.github.cybernhl.Entity:trilivechat:0.0.7")
+
+            api("com.github.cybernhl.GeneralModule:network:0.0.1")
+            api("com.github.cybernhl.GeneralModule:resfulclient:0.0.1")
         }
 
         commonTest.dependencies {
