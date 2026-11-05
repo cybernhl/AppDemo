@@ -81,6 +81,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TestKoinKib"
- 
-include(":shared")
- 
+include(":androidApp")
+//include(":desktopApp")
+//include(":shared")
+//include(":webApp")
