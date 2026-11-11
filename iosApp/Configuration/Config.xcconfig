@@ -1,0 +1,12 @@
+TEAM_ID=
+
+PRODUCT_NAME=TriliveChatDemo
+PRODUCT_BUNDLE_IDENTIFIER=chat.im.trilivechat.chatedin.TriliveChatSDK$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
+
+SITE_ID=
+AGENT_ID=
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/../../shared/build/xcode-frameworks/$(CONFIGURATION)" "$(BUILT_PRODUCTS_DIR)"
